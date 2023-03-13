@@ -1,5 +1,12 @@
 # Robust Control of a Hard Disk Drive Servo System
 
+<p align="center">
+	<a href="doc/report.pdf">Report</a>
+	<span> • </span>
+	<a href="doc/presentation.pdf">Presentation</a>
+	<span> • </span>
+	<a href="#screenshots">Screenshots</a>
+</p>
 
 ## Introduction
 
@@ -11,24 +18,35 @@ This repository contains the code, report, and presentation of a project that re
 
 
 ## References
-1. <a id="references-1"></a>Gu, D.-W.; Petkov, P.Hr.; Konstantinov, M.M. 2013. Robust Control Design with MATLAB®, 2nd ed.. Springer-Verlag, London. ISBN: 978-1-4471-4681-0
+1. <a id="references-1"></a>Gu, D.-W.; Petkov, P.Hr.; Konstantinov, M.M. 2013. Robust Control Design with MATLAB®, 2nd ed. Springer-Verlag, London, ISBN: 978-1-4471-4681-0, doi:[10.1007/978-1-4471-4682-7](https://doi.org/10.1007/978-1-4471-4682-7)
 
 
 ## Objectives
 * Specification of temporal and frequency requirements
 * Synthesis of a μ-controller
-* Synthesis of an H∞-controller
-* Synthesis of an H∞ LSDP-controller
+* Synthesis of an H<sub>∞</sub>-controller
+* Synthesis of an H<sub>∞</sub> LSDP-controller (Loop Shaping Design Procedure)
 * Synthesis of a classical controller
 * Synthesis of an LGQ/LTR controller
 * Analysis of nominal stability, nominal performance, robust stability, and robust performance of the system with the synthesized controllers
 * MATLAB® code that includes a graphical user interface (GUI) to assist users with synthesizing and analyzing any of the controllers mentioned
 
 
-## GUI
+## <a id="screenshots"></a>Screenshots
 
+Below are screenshots of the different control methods available in the GUI of the system.
+
+#### Overview
 ![](img/gui/gui_1.png)
+
+#### H<sub>∞</sub> Control
 ![](img/gui/gui_2.png)
+
+#### H<sub>∞</sub> LSDP Control
 ![](img/gui/gui_3.png)
+
+#### μ-Synthesis Control
 ![](img/gui/gui_4.png)
+
+#### PID Control
 ![](img/gui/gui_5.png)
